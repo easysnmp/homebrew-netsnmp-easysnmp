@@ -1,5 +1,5 @@
 class NetSnmpEasysnmp < Formula
-  desc "Builds SNMP for Easysnmp testing/development on MacOS"
+  desc "Net-SNMP for Easysnmp testing/development on MacOS"
   homepage "http://www.net-snmp.org/"
   url "https://downloads.sourceforge.net/project/net-snmp/net-snmp/5.9.1/net-snmp-5.9.1.tar.gz"
   sha256 "eb7fd4a44de6cddbffd9a92a85ad1309e5c1054fb9d5a7dd93079c8953f48c3f"
