@@ -11,6 +11,11 @@ class NetSnmpEasysnmp < Formula
     regex(%r{url=.*?/net-snmp[._-]v?(\d+(?:\.\d+)+)\.t}i)
   end
 
+  bottle do
+    root_url "https://github.com/easysnmp/homebrew-netsnmp-easysnmp/releases/download/net-snmp-easysnmp-5.9.1"
+    sha256 big_sur: "9673d4c2ebb653bf4ddba5a2446f94fc2623431d13be0fb55075b5a31f835e10"
+  end
+
   keg_only "macOS provides Net-SNMP 5.6.1 which will break by linking"
 
   if Hardware::CPU.arm?
