@@ -13,9 +13,8 @@ class NetSnmp < Formula
 
   bottle do
     root_url "https://github.com/easysnmp/homebrew-netsnmp-easysnmp/releases/download/net-snmp-5.9.1"
-    rebuild 1
-    sha256 big_sur:  "51cc26377a335ebc5e52a4eb4d543a11961ff1d3e0f81537c48eda90fa7d963f"
-    sha256 catalina: "ef9d117e78aba80c7ecfda0847a97c95dc11259fdb98219b9216dac4a9b0dc79"
+    sha256 big_sur:  "60f0872022fcadfa05fb68be02888f1431142ba2442a793e5a0fb1063ab3e9da"
+    sha256 catalina: "91367ab85cf995a1eb5be517d48961b5a1e33f0eec4bdc7f45f0ddc508ae92bf"
   end
 
   keg_only "macOS provides Net-SNMP 5.6.1 which will break by linking"
